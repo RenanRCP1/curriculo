@@ -15,71 +15,114 @@
         }
         header{
             background-color: rgb(245, 214, 158);
-            background-image: url(./img/resume-g8114cd003_1920.jpg);
+            background-image: url(./img/Foto\ programando.png);
+            background-size: cover;
             color: #eeeeee;
             padding: 30px;
             text-align: center;
             
         }
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
         nav{
             background-color: rgb(82, 80, 80);
-            color: #eeeeee;}
-            
-        div{
-            background-color: rgb(82, 80, 80);
         }
-        body{
+        nav a{
+            display: inline-block;
+            padding: 10px 20px;
+            color: #eeeeee;
+            text-decoration: none;
+            
+        }
+        nav a:hover{
+            background-color: #eeeeee;
+            color: black;
+        }
+        #projetos {
+            padding: 10px 20px;
+            background-image: url(./img/banner-ged6dbbf55_1280.jpg);
+            color: #fcfcfc;
+        }
+        #freella{
+            padding: 10px 20px;
             background-image: url(./img/banner-ged6dbbf55_1280.jpg);
             color: #fcfcfc;
         }
         
-        
+        #tecnologias {
+            padding: 10px 20px;
+            background-image: url(./img/banner-ged6dbbf55_1280.jpg);
+            color: #fcfcfc;
+            
+        }
+        #footer {
+            padding: 10px 20px;
+            background-color: rgb(82, 80, 80);
+            color: #fcfcfc;
+
+        }
+
 
     </style>
 </head>
 
 <body>
-    <header>
-        <img src="https://avatars.githubusercontent.com/u/111241570?v=4" alt="foto do usuario" height="100">
-        <h1>Nome Completo</h1>
-       <h3> <p>Programador web</p> </h3>
-       <h3> <p>Rio de Janeiro, Brasil</p></h3>
-        <img src="img/icons8-facebook-messenger-128.png" alt="logo facebook - com link para rede social da pessoa" height="30">
-        <img src="img/icons8-instagram-128.png" alt="logo instagram com link para rede social da pessoa" height="30">
-        <img src="img/icons8-twitter-dentro-de-um-círculo-128.png" alt="logo twitter com link para rede social da pessoa" height="30">
+    <header class="row">
+        <div id="logo">
+            <img src="https://avatars.githubusercontent.com/u/111241570?v=4" alt="foto do usuario" height="100">
+        </div>
+        <div id="dados">
+            <h1>Renan Camara Pinto</h1>
+            <h3> <p>Programador web</p> </h3>
+            <h3> <p>Rio de Janeiro, Brasil</p></h3>
+        </div>
+        <div>
+
+            <img src="img/icons8-facebook-messenger-128.png" alt="logo facebook - com link para rede social da pessoa" height="30">
+            <img src="img/icons8-instagram-128.png" alt="logo instagram com link para rede social da pessoa" height="30">
+            <img src="img/icons8-twitter-dentro-de-um-círculo-128.png" alt="logo twitter com link para rede social da pessoa" height="30">
+        </div>
     </header>
     <nav>
-        <p>Inicio</p>
-        <p>Projetos</p>
-        <p>Eu como freella</p>
-        <p>Tecnologias</p>
+        <a href="index.html">Inicio</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#freella">Eu como freella</a>
+        <a href="#tecnologias">Tecnologias</a>
     </nav>
-
+<div id="projetos">
     <section>
         <h1>Projetos</h1>
-        <p>Curriculo</p>
+        <p>Wireframe 1</p>
+        <img src="./img/curriculo 1.png" alt="" height="200">
+        <p>Wireframe 2</p>
+        <img src="./img/Curriculo 2.png" alt="" height="200">
     </section>
-
+</div>
+<div id="freella">
     <section>
         <h1>Eu Como Freella</h1>
         <p>Estou disposto a sempre estar melhorando</p>
         <p>Darei sempre o meu melhor</p>
         <p>Terei ótimas ideias</p>
     </section>
-    <div>
+</div>
+    <div id="tecnologias">
     <section>
         <h1>Tecnologias</h1>
         <p>estou adquirindo conhecimentos em HTML, CSS e JAVA SCRIPT</p>
         <img src="https://cdn.pixabay.com/photo/2016/11/19/22/25/html5-1841458_960_720.png" alt="logo html"height="100">
-        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png" alt="logo css"height="100">
-        <img src="https://2.bp.blogspot.com/-ybjEsh1Icu0/VqRBzF2lEGI/AAAAAAAAD7k/b0HnKNNbaNc/s640/javascript-logo.png" alt="logo java script"height="100">
-    </div>
-
-    
+        <img src="./img/css-3-logo-png-transparent.png" alt="logo css"height="100">
+        <img src="./img/png-javascript-badge-picture-8.png" alt="logo java script"height="100">
+        
     </section>
+</div>
+<div id="footer">
+
     <footer>
         <p>Feito por: Renan Camara Pinto</p>
     </footer>
+</div>
 
 </body>
 
